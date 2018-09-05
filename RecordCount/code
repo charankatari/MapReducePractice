@@ -69,7 +69,7 @@ public class Records extends Configured implements Tool {
       context.write(key, new IntWritable(sum)); //output of Reduce
     }
     //output of reduce :- Number of Records is :- Number of lines in the input file (In my case it is 6) 
-    // Number of Records is :- 6
+    // Number of Records is :- 6 
 
   }
 
